@@ -1,0 +1,91 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.white {
+    color: #FFF !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.border-right {
+    border-right: 1px solid #FFF;
+}
+
+.card {
+    padding: 3rem;
+    display: block;
+    margin: 2rem;
+    background-color: #ffe5d9;
+    border-radius: 1.5rem;
+}
+
+.padding-top {
+    padding-top: 2rem;
+}
+
+.navbar {
+    background: linear-gradient(to right, #eea990, #aa6f73);
+}
+
+.btn-width {
+    width: 8rem;
+}
+
+.margin {
+    margin: 0 10rem;
+}
+
+.table-custom {
+    background-color: #66545e;
+    border-color: #a39193;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #978669;
+    border-color: #978669;
+    --bs-btn-hover-bg: #695e49;
+    --bs-btn-hover-border-color: #695e49;
+}
+
+.btn-primary {
+    background-color: #d29f81;
+    border-color: #d29f81;
+    --bs-btn-hover-bg: #c27e56;
+    --bs-btn-hover-border-color: #c27e56;
+}
+
+.btn-danger {
+    background-color: #c47c6c;
+    border-color: #c47c6c;
+    --bs-btn-hover-bg: #a45341;
+    --bs-btn-hover-border-color: #a45341;
+}
+
+.btn-dark {
+    background-color: #734d26;
+    border-color: #734d26;
+    --bs-btn-hover-bg: #604020;
+    --bs-btn-hover-border-color: #604020;
+}
+
+.alert-success {
+    background-color: #ced2ba;
+    border-color: #abbd9a;
+}
+
